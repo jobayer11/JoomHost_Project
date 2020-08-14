@@ -1,0 +1,63 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*top_header start*/
+.top_header{
+	background-color: #2f3f54;
+}
+.menu{
+	margin:0;
+	padding: 10px 0;
+}
+.menu li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 15px;
+}
+.menu li:last-child a{
+	padding-right: 0;
+}
+.menu li:first-child a{
+	padding-left: 0;
+}
+.c_f_icon{
+	font-size: 15px;
+    padding-right: 5px;
+}
+/*top_header end*/
+
+/*header start*/
+header{}
+.c_navbar{
+	padding-left: 0;
+	padding-right: 0;
+}
+.h_menu{}
+.h_menu li a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #2f3f54 !important;
+	text-transform: uppercase;
+	padding: 0 20px !important;
+}
+.h_menu li a:hover{
+	color: #0073FF !important;
+}
+.h_menu li:last-child a{
+	padding-right: 0 !important;
+}
+.h_menu li:first-child a {
+    padding-left: 0 !important;
+}
+/*header end*/
+
+/*slider start*/
+.slider{
+	background-image: url("../images/bg_slider.png");
+	background-position: center;
+}
+/*slider end*/
